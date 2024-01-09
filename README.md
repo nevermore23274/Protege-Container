@@ -1,6 +1,4 @@
 # Protege-Container
-Runs Protege ( https://protege.stanford.edu/ ) from inside an Alpine Container.
-
 Container used: [Alpine 3.19.0](https://hub.docker.com/_/alpine)
 
 Find the commands to run in [/docker/DockerCommands.md](https://github.com/nevermore23274/Protege-Container/blob/main/docker/DockerCommands.md).
