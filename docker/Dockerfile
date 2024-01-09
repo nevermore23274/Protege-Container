@@ -29,7 +29,6 @@ RUN git clone https://github.com/protegeproject/protege.git /root/protege && \
 WORKDIR /root/protege/protege-desktop/target/protege-5.6.3-linux/Protege-5.6.3
 
 # Copy the runner script into the container and set permissions
-#COPY protege_runner.sh ./
 COPY ../protege_runner.sh ./
 RUN chmod +x ./protege_runner.sh
 
