@@ -12,5 +12,5 @@ podman run --rm -it --net=host -e DISPLAY=$DISPLAY -v /local/path:/root/protege/
 
 - System cleanup:
 ```
-podman system prun -af
+podman system prune -af
 ```
